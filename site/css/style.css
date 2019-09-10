@@ -1,1 +1,39 @@
-/* No CSS */
+.bg-primary {
+  background-color: #00ae8d !important;
+}
+
+.bg-secondary {
+  background-color: #d6ba90 !important;
+}
+
+.bg-dark {
+  background-color: #3a3a3a !important;
+}
+
+.bg-highlight {
+  background-color: #FFDB63;
+}
+
+.bg-light {
+  background-color: #c6c7c9 !important;
+}
+
+.text-primary {
+  color: #00ae8d !important;
+}
+
+.text-secondary {
+  color: #d6ba90 !important;
+}
+
+.text-dark {
+  color: #3a3a3a !important;
+}
+
+.text-highlight {
+  color: #FFDB63;
+}
+
+.text-light {
+  color: #c6c7c9 !important;
+}

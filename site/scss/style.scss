@@ -4,4 +4,42 @@ $highlight-color: #FFDB63;
 $light-color: #c6c7c9;
 $dark-color: #3a3a3a;
 
+// Backgrounds
+.bg {
+  &-primary{
+    background-color: $primary-color!important;
+  }
+  &-secondary{
+    background-color: $secondary-color!important;
+    
+  }
+  &-dark{
+    background-color: $dark-color!important;
+  }
+  &-highlight{
+    background-color: $highlight-color;
+  }
+  &-light{
+    background-color: $light-color!important;
+  }
+}
 
+// Text colors
+.text {
+  &-primary{
+    color: $primary-color!important;
+  }
+  &-secondary{
+    color: $secondary-color!important;
+    
+  }
+  &-dark{
+    color: $dark-color!important;
+  }
+  &-highlight{
+    color: $highlight-color;
+  }
+  &-light{
+    color: $light-color!important;
+  }
+}
