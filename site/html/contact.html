@@ -27,20 +27,20 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="../index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="html/about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="html/projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="html/services.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="html/contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -50,7 +50,7 @@
   <!-- Start of container -->
   <div class="container">
     <!--  header section -->
-    <div id="header" class="row mt-5 mb-2 pb-3 text-center">
+    <div id="header" class="row mt-5 mb-2 text-center">
       <img src="./img/AMGlogo2.svg" class="headerimg" alt="AMG Logo">
       <h1 class="ml-3 text-primary"> Phone: 04XX XXX XXX</h1>
     </div>
@@ -58,14 +58,14 @@
     <div id="featured" class="row">
       <div class="col-md-6 bg-light">
         <h2 class="text-center text-primary bg-highlight p-2">Slope Building Specialists</h2>
-        <img src="./img/home/slopeWeb.jpg" class="img-fluid w-75" alt="">
+        <img src="./img/home/slope.jpg" class="img-fluid w-75 h-40" alt="">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur. Nostrum saepe, suscipit animi
           fugiat quos voluptates perferendis nam maiores laudantium dicta? Molestiae voluptatum quasi, veritatis
           voluptatem quibusdam maxime quos est laborum animi enim qui, libero ea? Voluptas, dignissimos deleniti.</p>
       </div>
       <div class="col-md-6 bg-dark">
         <h2 class="text-center text-primary bg-highlight p-2">Sauna Builders & Sauna and Spa Installers</h2>
-        <img src="./img/home/spaWeb.jpg" class="img-fluid w-75" alt="">
+        <img src="./img/home/spa.jpg" class="img-fluid w-50" alt="">
         <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur. Nostrum
           saepe, suscipit animi fugiat quos voluptates perferendis nam maiores laudantium dicta? Molestiae voluptatum
           quasi, veritatis voluptatem quibusdam maxime quos est laborum animi enim qui, libero ea? Voluptas, dignissimos
@@ -73,50 +73,37 @@
       </div>
     </div>
 
-    <!-- Home about -->
-    <div id="homeabout" class="row py-3">
-      <div class="col-md-12">
-        <h2 class="text-primary text-center mt-2">About AMG</h2>
-        <p>Domestic builders - unlimited licence.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perferendis deleniti rem molestias!
-          Deleniti illo modi beatae. Nostrum unde, atque, ad necessitatibus fugiat velit nesciunt, magni accusantium
-          cumque inventore ipsa accusamus culpa eum! Et quia reiciendis delectus, possimus vitae similique!</p>
+    <!-- Contact-Form -->
+    <div class="contact">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-8 m-auto">
+            <h1 class="display-4 text-center">Contact Us</h1>
+            <p class="lead text-center">We will do our best to cater for your enquiry</p>
+            <form action="create-profile.html">
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Name" name="name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg" placeholder="Email Address" name="email" />
+                <small className="form-text text-muted">Please enter your email address</small>
+              </div>
+              <div class="form-group">
+                <input type="subject" class="form-control form-control-lg" placeholder="Subject" name="subject" />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Textarea</label>
+                <input type="message" class="form-control form-control-lg" placeholder="Enter Message" name="message" />
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <input type="submit" class="btn btn-info btn-block mt-4" />
+            </form>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!-- Build, Extend, Renovate rows -->
-    <div id="build" class="row no-gutters">
-      <div class="col-md-6">
-        <img src="./img/home/build.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col-md-6 bg-light">
-        <h2 class="text-center text-primary p-2">01 Build</h2>
-        <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorum.</p>
-      </div>
-    </div>
-    <div id="extend" class="row no-gutters">
-      <div class="col-md-6 bg-dark">
-        <h2 class="text-center text-primary p-2">02 Extend</h2>
-        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorum.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="./img/home/extend.jpg" class="img-fluid" alt="">
-      </div>
-    </div>
-    <div id="renovate" class="row no-gutters pb-3">
-      <div class="col-md-6">
-        <img src="./img/home/renovate.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col-md-6 bg-light">
-        <h2 class="text-center text-primary p-2">03 Renovate</h2>
-        <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorum.</p>
-      </div>
-    </div>
-
-
   </div>
   <!-- End of container -->
-
   <!-- Footer -->
   <div id="footer" class="bg-dark text-white row p2">
     <div class="col-md-2 ml-3">CDB-U 52073</div>
