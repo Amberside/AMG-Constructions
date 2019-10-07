@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
   <title>AMG Constructions</title>
@@ -17,9 +17,9 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="index.html"><img src="./img/AMGlogo2.svg" alt="AMG Constructions"
-        class="bg-white p-2"></a>
+        class=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -48,48 +48,46 @@
   <!-- End of navbar -->
 
   <!-- Start of container -->
-  <div class="container">
+  <div class="container-fluid bg-lighter">
     <!--  header section -->
-    <div id="header" class="row mt-5 mb-2 pb-3 text-center">
+    <!-- <div id="header" class="row mt-5 mb-2 pb-3 text-center bg-lighter">
       <img src="./img/AMGlogo2.svg" class="headerimg" alt="AMG Logo">
       <h1 class="ml-3 text-primary"> Phone: 04XX XXX XXX</h1>
-    </div>
-    <!-- Featured section to highlight slope and spas & saunas -->
-    <div id="featured" class="row">
-      <div class="col-md-6 bg-light">
-        <h2 class="text-center text-primary bg-highlight p-2">Slope Building Specialists</h2>
-        <img src="./img/home/slopeWeb.jpg" class="img-fluid w-75" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur. Nostrum saepe, suscipit animi
-          fugiat quos voluptates perferendis nam maiores laudantium dicta? Molestiae voluptatum quasi, veritatis
-          voluptatem quibusdam maxime quos est laborum animi enim qui, libero ea? Voluptas, dignissimos deleniti.</p>
-      </div>
-      <div class="col-md-6 bg-dark">
-        <h2 class="text-center text-primary bg-highlight p-2">Sauna Builders & Sauna and Spa Installers</h2>
-        <img src="./img/home/spaWeb.jpg" class="img-fluid w-75" alt="">
-        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur. Nostrum
-          saepe, suscipit animi fugiat quos voluptates perferendis nam maiores laudantium dicta? Molestiae voluptatum
-          quasi, veritatis voluptatem quibusdam maxime quos est laborum animi enim qui, libero ea? Voluptas, dignissimos
-          deleniti.</p>
-      </div>
-    </div>
+    </div> -->
+   
 
     <!-- Home about -->
     <div id="homeabout" class="row py-3">
       <div class="col-md-12">
         <h2 class="text-primary text-center mt-2">About AMG</h2>
-        <p>Domestic builders - unlimited licence.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perferendis deleniti rem molestias!
-          Deleniti illo modi beatae. Nostrum unde, atque, ad necessitatibus fugiat velit nesciunt, magni accusantium
-          cumque inventore ipsa accusamus culpa eum! Et quia reiciendis delectus, possimus vitae similique!</p>
+        <p>AMG Constructions offer over 30 years of experience in delivering quality home construction and superior end results to Melbourne’s southern and eastern suburbs. We maintain a close relationship with our clients and work within set budgets and timeframes from concept to creation. This is all without ever compromising on innovative designs and outstanding quality whether you are looking for a brand new build, a renovation or an extension. 
+          Our difference is the care we take to guarantee that our clients are informed every step of the build journey to see that all needs and expectations are met. We are proud to say that a majority of our work originates from word-of-mouth and the glowing recommendations from happy clients. 
+          If you are after personal, friendly service with proven results, please see below for more information. 
+          </p>
       </div>
     </div>
-
+     <!-- Featured section to highlight slope and spas & saunas -->
+     <div id="featured" class="row bg-white">
+      <div class="col-md-6">
+        <h5 class="text-center text-primary p-2">Slope</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur. Nostrum saepe, suscipit animi
+          fugiat quos voluptates perferendis nam maiores laudantium dicta? Molestiae voluptatum quasi, veritatis
+          voluptatem quibusdam maxime quos est laborum animi enim qui, libero ea? Voluptas, dignissimos deleniti.</p>
+      </div>
+      <div class="col-md-6">
+        <h5 class="text-center text-primary p-2">Sauna  &  Spa</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, consectetur. Nostrum
+          saepe, suscipit animi fugiat quos voluptates perferendis nam maiores laudantium dicta? Molestiae voluptatum
+          quasi, veritatis voluptatem quibusdam maxime quos est laborum animi enim qui, libero ea? Voluptas, dignissimos
+          deleniti.</p>
+      </div>
+    </div>
     <!-- Build, Extend, Renovate rows -->
     <div id="build" class="row no-gutters">
       <div class="col-md-6">
         <img src="./img/home/build.jpg" class="img-fluid" alt="">
       </div>
-      <div class="col-md-6 bg-light">
+      <div class="col-md-6 bg-lighter">
         <h2 class="text-center text-primary p-2">01 Build</h2>
         <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorum.</p>
       </div>
@@ -107,7 +105,7 @@
       <div class="col-md-6">
         <img src="./img/home/renovate.jpg" class="img-fluid" alt="">
       </div>
-      <div class="col-md-6 bg-light">
+      <div class="col-md-6 bg-lighter">
         <h2 class="text-center text-primary p-2">03 Renovate</h2>
         <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorum.</p>
       </div>

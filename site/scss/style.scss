@@ -3,6 +3,7 @@ $secondary-color: #d6ba90;
 $highlight-color: #FFDB63;
 $light-color: #c6c7c9;
 $dark-color: #3a3a3a;
+$lighter-color: lighten($light-color, 15%);
 
 // Backgrounds
 .bg {
@@ -22,7 +23,11 @@ $dark-color: #3a3a3a;
   &-light{
     background-color: $light-color!important;
   }
+  &-lighter{
+    background-color: $lighter-color!important;
+  }
 }
+
 
 // Text colors
 .text {
@@ -45,7 +50,7 @@ $dark-color: #3a3a3a;
 }
 
 body {
-  font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+  font-family: 'Noto Sans TC', 'Open Sans', Arial, sans-serif;
 }
 
 a.navbar-brand img {

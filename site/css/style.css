@@ -18,6 +18,10 @@
   background-color: #c6c7c9 !important;
 }
 
+.bg-lighter {
+  background-color: #edeeee !important;
+}
+
 .text-primary {
   color: #00ae8d !important;
 }
@@ -39,7 +43,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+  font-family: 'Noto Sans TC', 'Open Sans', Arial, sans-serif;
 }
 
 a.navbar-brand img {
