@@ -1,56 +1,99 @@
 $primary-color: #00ae8d;
 $secondary-color: #d6ba90;
-$highlight-color: #FFDB63;
+$highlight-color: #ffdb63;
 $light-color: #c6c7c9;
 $dark-color: #3a3a3a;
 $lighter-color: lighten($light-color, 15%);
 
 // Backgrounds
 .bg {
-  &-primary{
-    background-color: $primary-color!important;
+  &-primary {
+    background-color: $primary-color !important;
   }
-  &-secondary{
-    background-color: $secondary-color!important;
-    
+  &-secondary {
+    background-color: $secondary-color !important;
   }
-  &-dark{
-    background-color: $dark-color!important;
+  &-dark {
+    background-color: $dark-color !important;
   }
-  &-highlight{
+  &-highlight {
     background-color: $highlight-color;
   }
-  &-light{
-    background-color: $light-color!important;
+  &-light {
+    background-color: $light-color !important;
   }
-  &-lighter{
-    background-color: $lighter-color!important;
+  &-lighter {
+    background-color: $lighter-color !important;
   }
 }
 
-
 // Text colors
 .text {
-  &-primary{
-    color: $primary-color!important;
+  &-primary {
+    color: $primary-color !important;
   }
-  &-secondary{
-    color: $secondary-color!important;
-    
+  &-secondary {
+    color: $secondary-color !important;
   }
-  &-dark{
-    color: $dark-color!important;
+  &-dark {
+    color: $dark-color !important;
   }
-  &-highlight{
+  &-highlight {
     color: $highlight-color;
   }
-  &-light{
-    color: $light-color!important;
+  &-light {
+    color: $light-color !important;
+  }
+}
+
+// Button colors
+.btn {
+  &-primary {
+    background-color: $primary-color !important;
+    border: 1px solid $primary-color !important;
+    &:hover {
+      background-color: lighten($primary-color, 15%) !important;
+    }
+  }
+  &-secondary {
+    background-color: $secondary-color !important;
+    border: 1px solid $secondary-color !important;
+    &:hover {
+      background-color: lighten($secondary-color, 15%) !important;
+    }
+  }
+  &-dark {
+    background-color: $dark-color !important;
+    border: 1px solid $dark-color !important;
+    &:hover {
+      background-color: lighten($dark-color, 15%) !important;
+    }
+  }
+  &-highlight {
+    background-color: $highlight-color;
+    border: 1px solid $highlight-color !important;
+    &:hover {
+      background-color: lighten($highlight-color, 15%) !important;
+    }
+  }
+  &-light {
+    background-color: $light-color !important;
+    border: 1px solid $light-color !important;
+    &:hover {
+      background-color: lighten($light-color, 15%) !important;
+    }
+  }
+  &-lighter {
+    background-color: $lighter-color !important;
+    border: 1px solid $lighter-color !important;
+    &:hover {
+      background-color: lighten($lighter-color, 15%) !important;
+    }
   }
 }
 
 body {
-  font-family: 'Noto Sans TC', 'Open Sans', Arial, sans-serif;
+  font-family: "Noto Sans TC", "Open Sans", Arial, sans-serif;
 }
 
 a.navbar-brand img {

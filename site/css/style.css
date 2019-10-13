@@ -11,7 +11,7 @@
 }
 
 .bg-highlight {
-  background-color: #FFDB63;
+  background-color: #ffdb63;
 }
 
 .bg-light {
@@ -35,15 +35,69 @@
 }
 
 .text-highlight {
-  color: #FFDB63;
+  color: #ffdb63;
 }
 
 .text-light {
   color: #c6c7c9 !important;
 }
 
+.btn-primary {
+  background-color: #00ae8d !important;
+  border: 1px solid #00ae8d !important;
+}
+
+.btn-primary:hover {
+  background-color: #00fbcb !important;
+}
+
+.btn-secondary {
+  background-color: #d6ba90 !important;
+  border: 1px solid #d6ba90 !important;
+}
+
+.btn-secondary:hover {
+  background-color: #ebddc8 !important;
+}
+
+.btn-dark {
+  background-color: #3a3a3a !important;
+  border: 1px solid #3a3a3a !important;
+}
+
+.btn-dark:hover {
+  background-color: #606060 !important;
+}
+
+.btn-highlight {
+  background-color: #ffdb63;
+  border: 1px solid #ffdb63 !important;
+}
+
+.btn-highlight:hover {
+  background-color: #ffedb0 !important;
+}
+
+.btn-light {
+  background-color: #c6c7c9 !important;
+  border: 1px solid #c6c7c9 !important;
+}
+
+.btn-light:hover {
+  background-color: #edeeee !important;
+}
+
+.btn-lighter {
+  background-color: #edeeee !important;
+  border: 1px solid #edeeee !important;
+}
+
+.btn-lighter:hover {
+  background-color: white !important;
+}
+
 body {
-  font-family: 'Noto Sans TC', 'Open Sans', Arial, sans-serif;
+  font-family: "Noto Sans TC", "Open Sans", Arial, sans-serif;
 }
 
 a.navbar-brand img {
