@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    getyear()
     $(".filter-button").click(function () {
         var value = $(this).attr('data-filter');
 
@@ -21,4 +21,9 @@ $(document).ready(function () {
     }
     $(this).addClass("active");
 
+
 });
+function getyear() {
+    var year = Date.now().getyear
+    document.getElementById(getyear).innerHTML = year
+}
