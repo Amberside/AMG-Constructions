@@ -100,3 +100,21 @@ a.navbar-brand img {
   height: 50%;
   width: 50%;
 }
+#fb-icon,
+#ig-icon {
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0.5rem;
+}
+.f-head {
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+.f-text {
+  padding: 0;
+}
+.f-head,
+.f-text {
+  font-size: 0.8rem;
+  padding-bottom: 0;
+}
