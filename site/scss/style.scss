@@ -29,7 +29,7 @@ $lighter-color: lighten($light-color, 15%);
 
 // Text colors
 .text {
-  &-primary {
+  &-primary { 
     color: $primary-color !important;
   }
   &-secondary {
@@ -52,7 +52,7 @@ $lighter-color: lighten($light-color, 15%);
     background-color: $primary-color !important;
     border: 1px solid $primary-color !important;
     &:hover {
-      background-color: lighten($primary-color, 15%) !important;
+      background-color: lighten($primary-color, 5%) !important;
     }
   }
   &-secondary {
@@ -117,4 +117,18 @@ a.navbar-brand img {
 .f-text {
   font-size: 0.8rem;
   padding-bottom: 0;
+}
+.carousel-item{
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+.col-md-6{
+  width: 50% !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-md-6{
+    float:none
+  }
 }
