@@ -1,0 +1,13 @@
+To submit your assessment you need 3 things.
+201920_CRS180_ICTWEB508-ICTWEB506-ICTICT509-ICTICT515_AT2of3_Amberle.docx 
+(rename this to your name) edit this document with your detailsb (name and id).
+
+create planscreen.zip
+This zip will contain projectplan.docx
+about.pdf, index.pdf, projects.pdf, services.pdf
+firefox.pdf, edge.pdf
+
+create site.zip
+this zip will contain the site files, 
+html, css, img and js.
+
