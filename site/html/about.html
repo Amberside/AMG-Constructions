@@ -78,7 +78,8 @@
     <div class="container-fluid">
         <!-- Andy's Profile -->
         <div class="row no-gutters ">
-            <div id="aboutCol1" class="col-md-6"><img src="../img/about/AQ2Q0345b.JPG" class="img-fluid" alt=""></div>
+            <div id="aboutCol1" class="col-md-6"><img src="../img/about/AQ2Q0345b.JPG" class="img-fluid" alt="Andy">
+            </div>
             <div id="aboutCol2" class="col-md-6 bg-lighter p-5">
                 <h4 class="display-4">Andy Greenall</h4>
                 <p class="text-muted mb-3">Director / Owner <br> AMG Constructions Pty. Ltd.</p>
@@ -251,7 +252,7 @@
     </script>
     <!-- Custom jQuery -->
     <script>
-        $(window).on('load', function () {
+        $(document).ready(function () {
             var win = $(this);
             if (win.width() < 1200) {
                 $('#aboutCol1, #aboutCol2').removeClass('col-md-6');
