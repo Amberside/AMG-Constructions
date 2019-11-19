@@ -30,11 +30,7 @@ $(document).ready(function () {
       slide: "6",
       photoUrl: "../../img/projects/Peppermint-Grove/Peppermint-Grove5.jpg"
     },
-    {
-      name: "Meowsalot",
-      slide: "7",
-      photoUrl: "../../img/projects/Peppermint-Grove/Peppermint-Grove6.jpg"
-    },
+
   ];
 
 

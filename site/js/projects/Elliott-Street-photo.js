@@ -109,29 +109,48 @@ $(document).ready(function () {
     return `
     
       
-    <div class="row">
+
       <div class="column">
         <img src="${photo.photoUrl}" style="width:100%" onclick="openModal();currentSlide(${photo.slide})" class="hover-shadow cursor" alt="${photo.name}" >
-      </div
-    </div
+      </div>
+
 
 `;
   }
   //model window for images (pleade dont fix the </div) it work as is
   function photoModel(photo) {
+    console.log(`${photo.photoUrl}`);
     return `
     <div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
+
     <div class="modal-content">
         <a class="prev" onclick="plusSlides(-1) ">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
         <div class="mySlides">
                     <div class="numbertext">${photo.slide} / ${count = Object.keys(photoData).length}</div>
-                    <img src="${photo.photoUrl}" style="width:100%">
+                    <img src="${photo.photoUrl}" style="width:60vw ">
+                </div>
+    </div>
+</div>
+    `
+
+  }
+  function photoModel(photo) {
+
+    return `
+    <div id="myModal" class="modal">
+  
+    <div class="modal-content">
+        <a class="prev" onclick="plusSlides(-1) ">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="mySlides">
+                    <div class="numbertext">${photo.slide} / ${count = Object.keys(photoData).length}</div>
+                    <img src="${photo.photoUrl}" style="width:60vw ">
                 </div>
     </div
-</div
-    `;
+  </div
+    `
+
   }
 
   document.getElementById("photo").innerHTML = `
@@ -146,3 +165,5 @@ $(document).ready(function () {
 `;
 
 })
+
+

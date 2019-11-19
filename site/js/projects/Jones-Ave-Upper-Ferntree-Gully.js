@@ -3,62 +3,62 @@ $(document).ready(function () {
     {
       name: "Purrsloud",
       slide: "1",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG0.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG0.jpg"
     },
     {
       name: "Barksalot",
       slide: "2",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG1.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG1.jpg"
     },
     {
       name: "Meowsalot",
       slide: "3",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG2.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG2.jpg"
     },
     {
       name: "Meowsalot",
       slide: "4",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG3.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG3.jpg"
     },
     {
       name: "Meowsalot",
       slide: "5",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG4.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG4.jpg"
     },
     {
       name: "Meowsalot",
       slide: "6",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG5.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG5.jpg"
     },
     {
       name: "Meowsalot",
       slide: "7",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG6.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG6.jpg"
     },
     {
       name: "Meowsalot",
       slide: "8",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG7.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG7.jpg"
     },
     {
       name: "Meowsalot",
       slide: "9",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG8.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG8.jpg"
     },
     {
       name: "Meowsalot",
       slide: "10",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG9.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG9.jpg"
     },
     {
       name: "Meowsalot",
       slide: "11",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG10.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG10.jpg"
     },
     {
       name: "Meowsalot",
       slide: "12",
-      photoUrl: "../../img/projects/EJones-Ave-Upper Ferntree-Gully/jone-Ave-FG11.jpg"
+      photoUrl: "../../img/projects/Jones-Ave-Upper Ferntree-Gully/jone-Ave-FG11.jpg"
     },
   ];
   //end of photo Data

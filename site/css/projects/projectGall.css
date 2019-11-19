@@ -36,11 +36,11 @@
   /* Modal Content */
   .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: #fefefe00;
     margin: auto;
-    padding: 0;
+    padding-right:-2rem ;
     width: 70%;
-    max-width: 1200px;
+    /* max-width: 100vh; */
   }
   
   /* The Close Button */
@@ -117,12 +117,13 @@
   
   img {
     margin-bottom: -4px;
+    width: auto;
   }
   
   .caption-container {
     text-align: center;
     background-color: black;
-    padding: 0.125rem 1rem;
+    /* padding: 0.125rem 1rem; */
     color: white;
   }
   
