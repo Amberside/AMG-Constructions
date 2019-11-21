@@ -44,34 +44,28 @@ $(document).ready(function () {
   ];
 
 
-  // reading the json data to the page (please dont fix <div) it works as is 
+  // reading the json data to the page
   function photoTemplate(photo) {
     return `
-    
-      
-    <div class="row">
-      <div class="column">
+      <div class="column pl-3">
         <img src="${photo.photoUrl}" style="width:100%" onclick="openModal();currentSlide(${photo.slide})" class="hover-shadow cursor" alt="${photo.name}" >
-      </div
-    </div
+      </div>
+
 
 `;
   }
-  //model window for images (pleade dont fix the </div) it work as is
-  function photoModel(photo) {
+  //model window for images 
+  function photoModel() {
     return `
-    <div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
-        <a class="prev" onclick="plusSlides(-1) ">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        <div class="mySlides">
-                    <div class="numbertext">${photo.slide} / ${count = Object.keys(photoData).length}</div>
-                    <img src="${photo.photoUrl}" style="width:100%">
-                </div>
-    </div
-</div
-    `;
+    
+    ${photoData.map(photo =>
+      `
+          <div class="mySlides">
+                      <div class="numbertext">${photo.slide} / ${count = Object.keys(photoData).length}</div>
+                      <img src="${photo.photoUrl}" style="width:100% ">
+                  </div>
+      `
+    ).join('')}`
   }
 
   document.getElementById("photo").innerHTML = `
