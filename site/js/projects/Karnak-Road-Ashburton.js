@@ -3,7 +3,7 @@ $(document).ready(function () {
     {
       name: "Purrsloud",
       slide: "1",
-      photoUrl: "../../img/projects/Karnak-Road-Ashburton/Karnak-RD0.1.jpg"
+      photoUrl: "../../img/projects/Karnak-Road-Ashburton/Karnak-RD0.jpg"
     },
     {
       name: "Barksalot",
@@ -45,11 +45,7 @@ $(document).ready(function () {
       slide: "9",
       photoUrl: "../../img/projects/Karnak-Road-Ashburton/Karnak-RD8.jpg"
     },
-    {
-      name: "Meowsalot",
-      slide: "10",
-      photoUrl: "../../img/projects/Karnak-Road-Ashburton/Karnak-RD9.jpg"
-    },
+
     {
       name: "Meowsalot",
       slide: "11",
@@ -59,16 +55,6 @@ $(document).ready(function () {
       name: "Meowsalot",
       slide: "12",
       photoUrl: "../../img/projects/Karnak-Road-Ashburton/Karnak-RD11.jpg"
-    },
-    {
-      name: "Meowsalot",
-      slide: "13",
-      photoUrl: "../../img/projects/Karnak-Road-Ashburton/Karnak-RD12.jpg"
-    },
-    {
-      name: "Meowsalot",
-      slide: "14",
-      photoUrl: "../../img/projects/Karnak-Road-Ashburton/Karnak-RD13.jpg"
     },
     {
       name: "Meowsalot",
