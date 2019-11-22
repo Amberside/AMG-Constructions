@@ -105,6 +105,10 @@ a.navbar-brand img {
   width: 50%;
 }
 
+a.nav-link:hover {
+  background: #edeeee;
+}
+
 #fb-icon,
 #ig-icon {
   width: 2rem;
